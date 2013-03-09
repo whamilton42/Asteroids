@@ -89,6 +89,9 @@ namespace Asteroids
             {
                 entity.tick(gameTime.ElapsedGameTime.TotalMilliseconds);
             }
+
+            CollisionChecker.perform(enemies);
+
             base.Update(gameTime);
         }
 

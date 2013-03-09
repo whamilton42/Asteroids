@@ -107,6 +107,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CollisionChecker.cs" />
     <Compile Include="Entities\Asteroid.cs" />
     <Compile Include="Entities\Entity.cs" />
     <Compile Include="Entities\Ship.cs" />
